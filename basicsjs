@@ -1,0 +1,14 @@
+//This is an in-line comment. There is no closing. ha. 
+/*This is a multiline comment*/
+
+var MyVariable;
+MyVariable = 5
+console.log(MyVariable); /* I got stuck on this bit for 5 minutes because I misspelled console. Right. */
+
+var Initial = 0; // it is common to initialise value in the same line as it is declared
+
+
+
+
+
+
