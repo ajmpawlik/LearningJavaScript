@@ -71,7 +71,7 @@ var lastName = "Lovelace";
 lastNameLength = lastName.length;
 
 
-
+// this comment is the only change I am making in order to excercise github
 
 
 
