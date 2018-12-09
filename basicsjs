@@ -43,6 +43,34 @@ myNewVarPlusOne = myNewVar
 console.log(myNewVarPlusOne) // This worked well!
 
 
+myDecimal = 5.7
+console.log(myDecimal)
+
+// a = a - 6 and a -= 6 are the same. I have checked: 
+
+a = 10
+a = a - 8
+b = 10 
+b -=8 
+console.log(a) 
+console.log(b
+
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+var myName = "Aleksandra"
+
+"hello, my name is " + myName + " and I code"
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+
+
 
 
 
