@@ -99,3 +99,4 @@ var myArray = [18,64,99];
 
 myArray[0] = 45;  // no var before myArray
 
+aa
