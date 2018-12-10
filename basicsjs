@@ -73,5 +73,29 @@ lastNameLength = lastName.length;
 
 // this comment is the only change I am making in order to excercise github
 
+lastName = "Pawlik"
+firstLetterOfLastName = lastName[0]
+// This is what was returned: "P"
 
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
+
+var lastLetterOfLastName = lastName[lastName.length - 1];
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+var myArray = [11, 12, 13, 14]
+var myData = myArray[0]
+console.log(myData)
+
+
+// Setup
+var myArray = [18,64,99];
+
+// Only change code below this line.
+
+myArray[0] = 45;  // no var before myArray
 
