@@ -1,0 +1,102 @@
+//This is an in-line comment. There is no closing. ha. 
+/*This is a multiline comment*/
+
+var MyVariable;
+MyVariable = 5
+console.log(MyVariable); /* I got stuck on this bit for 5 minutes because I misspelled console. Right. */
+
+var Initial = 0; // it is common to initialise value in the same line as it is declared
+
+/*The code below is work from the following day*/
+
+// Initialize these three variables
+var a = 5;
+var b = 10;
+var c = "I am a";
+
+
+//Basic JavaScript: Understanding Case Sensitivity in Variables
+// Declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Assignments
+stUdLyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+var sum = 10 + 10;
+console.log(sum)
+var difference = 45 - 33;
+var product = 8 * 10
+var quitient = 66/33
+
+myVar = 88; 
+myVarPlusOne = myVar++;
+console.log(myVarPlusOne); 
+/* this seems not to work as planned, it does aasign the value of 89 to myVar but not to myVarPlusOne */ 
+
+myNewVar = 88
+myNewVar++;
+myNewVarPlusOne = myNewVar
+console.log(myNewVarPlusOne) // This worked well!
+
+
+myDecimal = 5.7
+console.log(myDecimal)
+
+// a = a - 6 and a -= 6 are the same. I have checked: 
+
+a = 10
+a = a - 8
+b = 10 
+b -=8 
+console.log(a) 
+console.log(b
+
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+var myName = "Aleksandra"
+
+"hello, my name is " + myName + " and I code"
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+
+
+// this comment is the only change I am making in order to excercise github
+
+lastName = "Pawlik"
+firstLetterOfLastName = lastName[0]
+// This is what was returned: "P"
+
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
+
+var lastLetterOfLastName = lastName[lastName.length - 1];
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+var myArray = [11, 12, 13, 14]
+var myData = myArray[0]
+console.log(myData)
+
+
+// Setup
+var myArray = [18,64,99];
+
+// Only change code below this line.
+
+myArray[0] = 45;  // no var before myArray
+
+
